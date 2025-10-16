@@ -1,0 +1,41 @@
+# Original notebook - not for distribution
+MedSAM_inference-8-22-24.ipynb
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Data
+Data/
+*.png
+*.jpg
+*.jpeg
+*.npy
+*.npz
+
+# Model checkpoints (users should download from Google Drive)
+*.pth
+*.pt
+*.ckpt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
