@@ -1,10 +1,10 @@
 # MedSAM Echo - Medical Image Segmentation with SAM
 
-This repository provides inference code for MedSAM (Medical Segment Anything Model) applied to echocardiography and other medical imaging datasets.
+This repository provides fine-tuned SAM and MedSAM model checkpoints specifically trained on echocardiography images, along with inference code for left ventricular segmentation.
 
 ## Overview
 
-MedSAM is an adaptation of the Segment Anything Model (SAM) for medical image segmentation. This implementation focuses on providing clean, easy-to-use inference capabilities with bounding box prompts.
+This implementation provides clean, easy-to-use inference capabilities with bounding box prompts using foundation models (SAM) and domain-specific models (MedSAM) fine-tuned on cardiac ultrasound images.
 
 ## Features
 
